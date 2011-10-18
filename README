@@ -7,10 +7,12 @@ Simple example Vaadin web application inspired by the article [http://dev.vaadin
 lein deps
 lein compile
 lein uberwar
-cp <war> <tomcat>/webapps
+
+java -jar lib/devjetty-runner-7.0.1.v20091125.jar cljvaadin-1.0.0-SNAPSHOT.war
 
 ## License
 
 Copyright (C) 2011 Ulrik Sandberg
 
 Distributed under the Eclipse Public License, the same as Clojure.
+
