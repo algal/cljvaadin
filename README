@@ -8,7 +8,7 @@ lein deps
 lein compile
 lein uberwar
 
-java -jar lib/devjetty-runner-7.0.1.v20091125.jar cljvaadin-1.0.0-SNAPSHOT.war
+java -jar lib/dev/jetty-runner-7.0.1.v20091125.jar cljvaadin-1.0.0-SNAPSHOT.war
 
 ## License
 
